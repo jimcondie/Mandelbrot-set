@@ -1,9 +1,13 @@
 # Mandelbrot-set
 
 this code allows one to create views of the Mandelbrot set, that are zoomed in.
-Areas of interest usually lie at the boundary of the set, that's why this program uses the formula to pick points on the main cardioid of the Mandelbrot set
+Areas of interest usually lie at the boundary of the set, that's why this program uses the formula to pick points on the main cardioid of the Mandelbrot set.
 
-the text file sets the center and window size and zoom for example, the following parameters will give a whole Set centered (albeit it will be pretty coarse)
+
+
+The text file sets the center and window size and zoom for example, the following parameters will give a whole Set centered (albeit it will be pretty coarse)
+
+Alpha sets the fractional angle around the cardioid.  The maxiter is the maximum iterations the program will run on a given pixel.
 
 ######
 100 100 250 0.5 -3 3 
@@ -16,4 +20,4 @@ the text file sets the center and window size and zoom for example, the followin
 6.  new range height (in terms of C)
 #####
 
-I suggest using 100x100 pixels with maxiter at 250 until you find a frame and zoom you like, and then increase pixels and maxiter which can significantly increase processing time.  my most ambitious images took about 4 days to process.
+I suggest using 100x100 pixels with maxiter at 250 until you find a frame and zoom you like, and then increase pixels and maxiter which can significantly increase processing time.  My most ambitious images took about 4 days to process (4000x4000 pixels maxiter of 250000).
