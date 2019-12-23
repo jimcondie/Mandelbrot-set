@@ -1,0 +1,9 @@
+5500 5500 250000 .3459 .001 .001 
+
+1.  Image Width pixels
+2.  Image Height pixels
+3.  maxiter	(n: f^n(z)=z^2+C)
+4.  alpha (2pi*alpha)
+5.  new domain width (in terms of C)
+6.  new range height (in terms of C)
+
