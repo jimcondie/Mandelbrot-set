@@ -1,7 +1,7 @@
 # Mandelbrot-set
 
 this code allows one to create images of the Mandelbrot set, that are zoomed a specified point around the Mandelbrot set's main cardioid.
-If one wants to zoom in, areas of interest usually lie along boundaries of the set.  There's a formula for the main cardioid so this program exploits this formula an effort to always have something interesting to zoom in on. 
+If one wants to zoom in, areas of interest usually lie along boundaries of the set.  There's a formula for the main cardioid so this program exploits this formula in an effort to provide interesting points that one might want to explore zooming in towards. 
 
 Alpha sets the fractional angle around the cardioid.  The maxiter is the maximum iterations the program will run on a given pixel.
 
