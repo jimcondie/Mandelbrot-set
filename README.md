@@ -1,7 +1,6 @@
 # Mandelbrot-set
 
-Allows one to create images of the Mandelbrot set.  User sets an angle, alpha, that corresponds to a point on the set's main cardioid.
-The reasoning for centering the frame on a point on the cardiod is to ensure the program zooms in on an edge of the Mandelbrot set. The edge of the set provides interesting results which oterhwise aren't generally guaranteed. 
+Allows one to create images of the Mandelbrot set, either whole set, or zoomed in on areas of interest.  User sets an angle, alpha, that corresponds to a point on the set's main cardioid. The reasoning for centering the frame on a point on the cardiod is to ensure the program zooms in on an edge of the Mandelbrot set. The edge of the set provides interesting results which oterhwise aren't generally guaranteed. 
 
 The maxiter is the maximum iterations the program will run on a single pixel.
 
